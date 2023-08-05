@@ -108,18 +108,238 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SAP_playeridle_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 14
+        width: 31
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb8c95d68cb5e645ae5d87975ba39f0
+      internalID: -277563441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAP_playeridle_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 14
+        width: 30
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca939b21a755cf4a989f87b9acf1c65
+      internalID: 1185319888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAP_playeridle_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 14
+        width: 30
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae840a38402f8d540bcc7eae5c94fc5c
+      internalID: 147185475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAP_playeridle_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 14
+        width: 30
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209bc2395c5305b409592364579d8436
+      internalID: 1121000338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAP_playeridle_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 14
+        width: 31
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3286a93a83194641a1c32bb5bd5cd69
+      internalID: -1360402069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAP_playeridle_sprite_5
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 14
+        width: 29
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d28a93af45f55e49a5f46b9775e451d
+      internalID: -1934729042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAP_playeridle_sprite_6
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 14
+        width: 30
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8001e3fd8cf107e42b5178eb4c1f024a
+      internalID: 546133422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAP_playeridle_sprite_7
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 14
+        width: 30
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75d248105026924f96dc3b386d28579
+      internalID: 1063037284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAP_playeridle_sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 14
+        width: 29
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be07b0a844d1384ab7e1b771de893f6
+      internalID: 770781355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAP_playeridle_sprite_9
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 15
+        width: 30
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7199c63c6576d724b8c29dfea29bc39c
+      internalID: 617888128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: df35af3c33d7a004da57e19272028593
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SAP_playeridle_sprite_0: -277563441
+      SAP_playeridle_sprite_1: 1185319888
+      SAP_playeridle_sprite_2: 147185475
+      SAP_playeridle_sprite_3: 1121000338
+      SAP_playeridle_sprite_4: -1360402069
+      SAP_playeridle_sprite_5: -1934729042
+      SAP_playeridle_sprite_6: 546133422
+      SAP_playeridle_sprite_7: 1063037284
+      SAP_playeridle_sprite_8: 770781355
+      SAP_playeridle_sprite_9: 617888128
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
