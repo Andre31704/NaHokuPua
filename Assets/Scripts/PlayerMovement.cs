@@ -7,6 +7,12 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Animator m_Animator;
     private bool isFacingRight = true;
+    private bool isGrounded;
+    private bool isJumping;
+
+    public Transform groundCheck;
+    public LayerMask groundLayer;
+    public float groundCheckOffset = 1f;
     
 
     // Start is called before the first frame update 
@@ -19,12 +25,29 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        groundCheck.position = new Vector3(transform.position.x, transform.position.y - groundCheckOffset, transform.position.z);
+        
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
+        
         float dirX = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(dirX * 6f, rb.velocity.y);
 
-        if (Input.GetButtonDown("Jump"))
+        if (isGrounded)
         {
-            rb.velocity = new Vector2(0, 7f);
+            isJumping = false;
+            m_Animator.SetBool("Jump", false);
+            m_Animator.SetBool("Fall", false);
+        }
+
+        if (Input.GetButtonDown("Jump") && isGrounded)
+        {
+            isJumping = true;
+            rb.velocity = new Vector2(rb.velocity.x, 7f);
+        }
+        if (rb.velocity.y > 0)
+        {
+            isJumping = true;
+            m_Animator.SetTrigger("Jump");
         }
 
          if(Mathf.Abs(dirX) > 0.001f) {
@@ -38,7 +61,26 @@ public class PlayerMovement : MonoBehaviour
             m_Animator.SetFloat("xMove", 0f);
             m_Animator.SetFloat("Run", 0f);
         }
+        if (rb.velocity.y < 0 && !isGrounded && isJumping)
+        {
+            m_Animator.SetBool("Fall", true);
 
+        }
+        else
+        {
+            m_Animator.SetBool("Fall", false);
+        }
+
+    }
+    private void FixedUpdate()
+    {
+        
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(groundCheck.position, 0.1f);
     }
 
     private void Flip() {
