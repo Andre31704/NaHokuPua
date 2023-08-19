@@ -44,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
             isJumping = true;
             rb.velocity = new Vector2(rb.velocity.x, 7f);
         }
-        if (rb.velocity.y > 0)
+        if (rb.velocity.y > 0 && !isGrounded)
         {
             isJumping = true;
             m_Animator.SetTrigger("Jump");
