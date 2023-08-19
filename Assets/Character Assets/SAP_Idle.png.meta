@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0eac88735cbd94f4aa48555c4af3d710
+guid: 66c50cfcb391e5b43a518c7059cd8d92
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 90
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SAP_playerjog_sprite_0
+      name: SAP_Idle_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 11
-        width: 44
-        height: 69
+        x: 0
+        y: 500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0387fe9b321f543438d6c467e114c6e0
-      internalID: -581639238
+      spriteID: a1c2f3f71bbfe7e4ba65920d12e1b222
+      internalID: 1428878749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SAP_playerjog_sprite_1
+      name: SAP_Idle_1
       rect:
         serializedVersion: 2
-        x: 112
-        y: 10
-        width: 45
-        height: 69
+        x: 500
+        y: 500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1afc7eb62917c4842a80a19df3d02c6b
-      internalID: 1398946146
+      spriteID: 8d6e085efdf59804187c6d7be045c905
+      internalID: 990389180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SAP_playerjog_sprite_2
+      name: SAP_Idle_2
       rect:
         serializedVersion: 2
-        x: 203
-        y: 7
-        width: 44
-        height: 71
+        x: 1000
+        y: 500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03d3b1416de3f074b836ef1f52019411
-      internalID: -902957052
+      spriteID: 937f6437b14f2444fab18e1bd9a44354
+      internalID: 1904894504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SAP_playerjog_sprite_3
+      name: SAP_Idle_3
       rect:
         serializedVersion: 2
-        x: 295
-        y: 8
-        width: 40
-        height: 70
+        x: 1500
+        y: 500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f41e88fdb8f5324cb4e8d62ebdd62a2
-      internalID: 1997282823
+      spriteID: 7edba3ed9a807a74495605f6bdacefdf
+      internalID: -177784003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SAP_playerjog_sprite_4
+      name: SAP_Idle_4
       rect:
         serializedVersion: 2
-        x: 390
-        y: 8
-        width: 29
-        height: 71
+        x: 2000
+        y: 500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3eec725b61f1594481e5f118c69b3f9
-      internalID: -1559031743
+      spriteID: a116e2bdbf31ab9489f0a275728f1fea
+      internalID: 58294670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SAP_playerjog_sprite_5
+      name: SAP_Idle_5
       rect:
         serializedVersion: 2
-        x: 483
-        y: 8
-        width: 26
-        height: 71
+        x: 0
+        y: 0
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b2159f9740a4c24a919917a644f6ed3
-      internalID: 638300723
+      spriteID: 570ca25168a6ce54e905e6db0cc6b0f0
+      internalID: 518761937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SAP_playerjog_sprite_6
+      name: SAP_Idle_6
       rect:
         serializedVersion: 2
-        x: 568
-        y: 8
-        width: 29
-        height: 72
+        x: 500
+        y: 0
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f001f79e4e3951a499918a42ea78e6d6
-      internalID: -1348956844
+      spriteID: bde64751a045c0a429b5aaf3af2dfaf4
+      internalID: -1721288483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SAP_playerjog_sprite_7
+      name: SAP_Idle_7
       rect:
         serializedVersion: 2
-        x: 655
-        y: 9
-        width: 38
-        height: 71
+        x: 1000
+        y: 0
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,20 +271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99e72ffc4fbbb354b842ba0e520d6140
-      internalID: -1878805669
+      spriteID: d3439f3d286f0fc48ac5b5ee99a3aeb6
+      internalID: 827453202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SAP_playerjog_sprite_8
+      name: SAP_Idle_8
       rect:
         serializedVersion: 2
-        x: 742
-        y: 10
-        width: 43
-        height: 70
+        x: 1500
+        y: 0
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,20 +292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d63547a3a111c145831d628ec8270bf
-      internalID: -2080793789
+      spriteID: 22eac48b7aa0f1544a3b5c9901ab7bed
+      internalID: -1775462103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SAP_playerjog_sprite_9
+      name: SAP_Idle_9
       rect:
         serializedVersion: 2
-        x: 832
-        y: 9
-        width: 45
-        height: 70
+        x: 2000
+        y: 0
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,134 +313,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f18d4e45d1645cc40abd2906344d9fec
-      internalID: 668337757
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SAP_playerjog_sprite_10
-      rect:
-        serializedVersion: 2
-        x: 923
-        y: 7
-        width: 44
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 053caf8203a0f834f977a7835f648c89
-      internalID: -29599674
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SAP_playerjog_sprite_11
-      rect:
-        serializedVersion: 2
-        x: 1017
-        y: 8
-        width: 38
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db6b89d8c504f93419f315a76427fd7c
-      internalID: 2032007702
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SAP_playerjog_sprite_12
-      rect:
-        serializedVersion: 2
-        x: 1110
-        y: 7
-        width: 28
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c17ba18aaf3224c409818feae314e28b
-      internalID: -851508344
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SAP_playerjog_sprite_13
-      rect:
-        serializedVersion: 2
-        x: 1205
-        y: 7
-        width: 20
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b62f16d4ee0d80b4cb913c8aff0da3f7
-      internalID: -131578878
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SAP_playerjog_sprite_14
-      rect:
-        serializedVersion: 2
-        x: 1288
-        y: 8
-        width: 28
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a5bdca197f505e4cb18343f81501953
-      internalID: 1302666345
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SAP_playerjog_sprite_15
-      rect:
-        serializedVersion: 2
-        x: 1375
-        y: 9
-        width: 37
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8bde56f77f8d7fb4da17f53a73d6876c
-      internalID: -811065791
+      spriteID: 1725c0728f9613c4087481fe962f5659
+      internalID: -1900028444
       vertices: []
       indices: 
       edges: []
@@ -448,7 +322,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 024ba3ad294bac642ac469a6cbd2ea0d
+    spriteID: 0c8483b59cf38c94a8788033b774163f
     internalID: 0
     vertices: []
     indices: 
@@ -456,22 +330,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SAP_playerjog_sprite_0: -581639238
-      SAP_playerjog_sprite_1: 1398946146
-      SAP_playerjog_sprite_10: -29599674
-      SAP_playerjog_sprite_11: 2032007702
-      SAP_playerjog_sprite_12: -851508344
-      SAP_playerjog_sprite_13: -131578878
-      SAP_playerjog_sprite_14: 1302666345
-      SAP_playerjog_sprite_15: -811065791
-      SAP_playerjog_sprite_2: -902957052
-      SAP_playerjog_sprite_3: 1997282823
-      SAP_playerjog_sprite_4: -1559031743
-      SAP_playerjog_sprite_5: 638300723
-      SAP_playerjog_sprite_6: -1348956844
-      SAP_playerjog_sprite_7: -1878805669
-      SAP_playerjog_sprite_8: -2080793789
-      SAP_playerjog_sprite_9: 668337757
+      SAP_Idle_0: 1428878749
+      SAP_Idle_1: 990389180
+      SAP_Idle_2: 1904894504
+      SAP_Idle_3: -177784003
+      SAP_Idle_4: 58294670
+      SAP_Idle_5: 518761937
+      SAP_Idle_6: -1721288483
+      SAP_Idle_7: 827453202
+      SAP_Idle_8: -1775462103
+      SAP_Idle_9: -1900028444
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
