@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a9bf0be6bea48c946b12f721498a23c3
+guid: a27586c5a43d27d4aac24d44739b1d0b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SAP_Fall2_0
+      name: SAP_Fall2 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b6cafda27f738b45895e5dcca0989e6
-      internalID: 1912033494
+      spriteID: 5f001dd12620bed42af3fa7d82187f7a
+      internalID: -457060359
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SAP_Fall2_1
+      name: SAP_Fall2 1_1
       rect:
         serializedVersion: 2
         x: 500
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca3e51ecabb338e4d85fa3c47646e489
-      internalID: 444796928
+      spriteID: 1a6c53f140a9c8544a1f52a4b070b54b
+      internalID: 1392660342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SAP_Fall2_2
+      name: SAP_Fall2 1_2
       rect:
         serializedVersion: 2
         x: 1000
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf4e04f0e7d58cf4dae0a3a09be8baa2
-      internalID: -2014446503
+      spriteID: 7beb2b6d05e6a0d4e81e98d450ea5a48
+      internalID: 164028440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SAP_Fall2_3
+      name: SAP_Fall2 1_3
       rect:
         serializedVersion: 2
         x: 1500
@@ -187,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 157007f47d7ee7941ac3f5f514e968af
-      internalID: -1662172986
+      spriteID: 0350a86e413a8c44bbe1421230179147
+      internalID: -1786259104
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SAP_Fall2_4
+      name: SAP_Fall2 1_4
       rect:
         serializedVersion: 2
         x: 2000
@@ -208,8 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b6108a61195e554aa328ae95b55962a
-      internalID: 1779683489
+      spriteID: 56aff323e3abec04c868ca1bb1877d67
+      internalID: -1708776440
       vertices: []
       indices: 
       edges: []
@@ -217,7 +217,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: faad9a5b890a01d40b66fc827419c8c3
+    spriteID: f5ff4e1f6a49fd34993768409e2f98ff
     internalID: 0
     vertices: []
     indices: 
@@ -225,11 +225,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SAP_Fall2_0: 1912033494
-      SAP_Fall2_1: 444796928
-      SAP_Fall2_2: -2014446503
-      SAP_Fall2_3: -1662172986
-      SAP_Fall2_4: 1779683489
+      SAP_Fall2 1_0: -457060359
+      SAP_Fall2 1_1: 1392660342
+      SAP_Fall2 1_2: 164028440
+      SAP_Fall2 1_3: -1786259104
+      SAP_Fall2 1_4: -1708776440
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
