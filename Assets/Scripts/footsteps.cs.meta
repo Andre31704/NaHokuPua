@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e62d25fc04dc5c24e8fac4d807e65993
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Players_FootstepGrass: {fileID: 8300000, guid: 848f1497dd96ead49b87863ba2cf6814, type: 3}
+  - Players_WalkingMud: {fileID: 8300000, guid: e5239f202c161c144bbddd3f740598df, type: 3}
+  - Jump: {fileID: 8300000, guid: ec00beb9d97c87343a26a79d6f6b5dba, type: 3}
+  - audioSource: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

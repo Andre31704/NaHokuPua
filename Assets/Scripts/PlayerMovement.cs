@@ -13,7 +13,8 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundLayer;
     public float groundCheckOffset = 1f;
-    
+
+    public AudioSource audioSource;
 
     // Start is called before the first frame update 
     private void Start()
@@ -72,6 +73,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
     }
+
     private void FixedUpdate()
     {
         
