@@ -4,42 +4,51 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed;
-
     private Rigidbody2D rb;
-    private bool facingRight = true;
-    private float moveDirection;
-    //Awake is called after all objects are initiallized. Call in a random order.
-    private void Awake()
+    private Animator anim;
+    private SpriteRenderer sprite;
+
+    private float dirX = 0f;
+    [Serializefield] private float moveSpeed = 7f;
+    [Serializefield] public float jumpforce = 14f;
+
+    // Start is called before the first frame update 
+    private void Start()
     {
-        rb = GetComponent<Rigidbody2D>(); // Will look for a component of this Gameobject (what the script is attached to) of type Rigidbody2D.
+        rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        sprite = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        // Get inputs
-        moveDirection = Input.GetAxis("Horizontal"); // scale of -1 -> 1
+        dirX = Input.GetAxisRaw("Horizontal");
+        rb.velocity = new Vector2(dirX * 7f, rb.velocity.y);
 
-        // Animate
-        if (moveDirection >  0 && !facingRight)
+        if (Input.GetButtonDown("Jump"))
         {
-            FlipCharacter();
-        }
-        else if (moveDirection > 0 && facingRight)
-        {
-            FlipCharacter();
+            rb.velocity = new Vector2(rb.velocity.x, jumpforce);
         }
 
-
-       // Move
-        rb.velocity = new Vector2(moveDirection * moveSpeed, rb.velocity.y);
+        UpdateAnimationState();
     }
 
-    private void FlipCharacter()
+    private void UpdateAnimationState()
     {
-        facingRight = !facingRight;
-        transform.Rotate(0f, 180f, 0f);
+        if (dirX > 0f)
+        {
+            anim.SetBool("running", true);
+            sprite.flipX = false;
+        }
+        else if (dirX < 0f)
+        {
+            anim.SetBool("running", true);
+            sprite.flipX = true;
+        }
+        else
+        {
+            anim.SetBool("running", false)
+        }
     }
-
 }
