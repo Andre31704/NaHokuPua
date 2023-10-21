@@ -12,17 +12,12 @@ public class PlayerMovement : MonoBehaviour
     private float isinAir;
     private float xAxis;
     private float yAxis;
-    private bool isKneeling;
+    private bool isKneeling = false;
     private string currentAnimaton;
 
     public LayerMask groundLayer;
     public float SlowedMoveSpeed;
     public float moveSpeed = 6f;
-
-    // Animation states
-    const string PLAYER_IDLE = "Player_Idle";
-    const string PLAYER_JOG = "Player_Jog";
-    const string PLAYER_JUMP = "Player_Jump";
 
     // Start is called before the first frame update 
     void Start()
@@ -41,12 +36,18 @@ public class PlayerMovement : MonoBehaviour
             isJumping = true;
             Debug.Log("Player is jumping");
         }
-
+        
         // checking for jump
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, 7f);
             m_Animator.SetFloat("Jump", 1.0f);
+        }
+        
+        if (Input.GetKeyDown(KeyCode.K) && isGrounded) //kneel when 'K' is pressed
+        {
+            isKneeling = !isKneeling;
+            m_Animator.SetBool("Kneel", isKneeling);
         }
 
         if (!isGrounded)
@@ -92,22 +93,34 @@ public class PlayerMovement : MonoBehaviour
             isGrounded = false;
         }
 
-        Vector2 vel = new Vector2(0, rb.velocity.y);
-
-
-        if (xAxis < 0)
+        // if player is not kneeling: movement logic
+        if (!isKneeling)
         {
-            vel.x = -moveSpeed;
-            Flip(-1);
-        }
-        else if (xAxis > 0)
-        {
-            vel.x = moveSpeed;
-            Flip(1);
+
+            Vector2 vel = new Vector2(0, rb.velocity.y);
+
+            // checking for movements, flips sprite
+            if (xAxis < 0)
+            {
+                vel.x = -moveSpeed;
+                Flip(-1);
+            }
+            else if (xAxis > 0)
+            {
+                vel.x = moveSpeed;
+                Flip(1);
+            }
+            else
+            {
+                vel.x = 0;
+            }
+
+            //update to new movement
+             rb.velocity = vel;
         }
         else
         {
-            vel.x = 0;
+            rb.velocity = Vector2.zero;
         }
 
         if(isGrounded)
@@ -121,9 +134,6 @@ public class PlayerMovement : MonoBehaviour
                 m_Animator.SetFloat("Jog", 0.0f);
             }
         }
-
-        //update to new movement
-        rb.velocity = vel;
 
     }
 
