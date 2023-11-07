@@ -1,0 +1,1865 @@
+fileFormatVersion: 2
+guid: 560ed9a016ec58243bf9ab4c82d7960b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2625
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ede0ff712181514ba96be190e50d355
+      internalID: -1324628796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2625
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baab8872c0505cf40825c4f12e745c4e
+      internalID: -550310535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2625
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49edd4b12001dc4b9c6c8c853b4b51a
+      internalID: 1479368732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2625
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ac4a5e688450a499d45d2784402dd5
+      internalID: -311921037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2625
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4760d1b7d6ec334ba320560f1be8b83
+      internalID: 491790902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2625
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d678241dec68ede4b8b18edce3afe91a
+      internalID: -1299672082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2625
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b098995d972294344b566abbf9c2c922
+      internalID: -228738723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2625
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f827e530eb65e5046a24553065475d39
+      internalID: 553034917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2625
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a831254d1b821154a8fd0b9d798795c5
+      internalID: -170624658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 2625
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df68428fc31efbc42894568d7ed2b8c2
+      internalID: -690118240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2250
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88217dda54fe6fe4a912a702932d4d8d
+      internalID: 1418138382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2250
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729f36f902d3f0f479a45ead521e6d2f
+      internalID: -513947443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2250
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1197b2f6c94d2ad4fae3869ebf6e63ef
+      internalID: 1627575425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2250
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2b3d6193333fb41a900448719ea9df
+      internalID: 1950520166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2250
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbecd8d3638437347bd41019bcda0789
+      internalID: 1555844170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2250
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6cf3ef527929f847aa2bb06c01acdca
+      internalID: -2097192367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2250
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000961be28e4ca94cbfb3f70b6f8e5aa
+      internalID: -2022054523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2250
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9735ca3942ab79045b7b3570e0605f35
+      internalID: 722157142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2250
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af6040d88e8acf4d82b9ab734d7f8ce
+      internalID: -1150002393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 2250
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14dbb1df0cfe7c942bb8fa90ae8c8404
+      internalID: -2090718795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1875
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee1fec10c380564ea992700bfe1891c
+      internalID: -801244132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1875
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357af7bf016b6f143bcd3719c34e20c3
+      internalID: 1388076692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1875
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d1fb24ea9045e448148cdd2d7cd858
+      internalID: -1686488053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1875
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0835273f5812140b6e03c6ae1dc96c
+      internalID: 1007570330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1875
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a8545fa02a8fa478c983a11e98c818
+      internalID: 1801694112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1875
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aea19b712692fb47ab56b0f0574a833
+      internalID: -2088884817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1875
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72a8aae85709ef45b1eb9adfe0494c3
+      internalID: -2134257993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1875
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3afa4ce7aa86541bcc98201d2dd5ed
+      internalID: 1355666589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1875
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860757f9d94f2bc428e83fe1bb8da4b9
+      internalID: 883749004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 1875
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77952f588a3c474e9eb559c400b0bd5
+      internalID: 1406730281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215cf69a30127b74e9a57b0e9e5ad68d
+      internalID: -1840277722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1500
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af248af93c9c09b49b5df31dd78eeb00
+      internalID: -421981495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1500
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7775d0f89b41a4987ef5d9ae54f988
+      internalID: 987880261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1500
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56def7274f52ca46963bf59ca2cb85d
+      internalID: -1843567373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1500
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9f064d4443a204a9347c34e6c08d4a
+      internalID: 983063376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1500
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83476994ace20c4ba0a2eb7d4309103
+      internalID: -1590992519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1500
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc8bf4c49d301f43b5a46c7e164c894
+      internalID: -2075858137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1500
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf58f19e4e495b49a0063c079c5c519
+      internalID: 201368865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1500
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86dcb6cf01f5ba344aab17ae7b4133c9
+      internalID: 1314703515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 1500
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51a193efaaa87b47ae2106d9bee94ae
+      internalID: 385676915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1125
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59059aa38f3950f4ba96a19f80d204ae
+      internalID: -397238034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1125
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab5dbeb4f41329479d1122a8416d8ac
+      internalID: -1819869150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1125
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfd49f215585944281670bdab1a1ee6
+      internalID: -157895770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1125
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c826232feb04e444eb6fa689f97ca5c4
+      internalID: -1479293141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1125
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c320ff67a0e9541906b33a2ff12372
+      internalID: 1946978820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1125
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b96b18a860bf149b77a21e8ad1bd32
+      internalID: 780458088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1125
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c869cbd38ef5a89469eb141b837f2504
+      internalID: 2137486450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1125
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee8b07ca57d7fa41ac53753eaf98e0a
+      internalID: -1286932105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1125
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0002c7f24fd1274b9d38f603db050c3
+      internalID: 1993158093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 1125
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c281619a528b2874da0d19db678e2256
+      internalID: -1189672130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 750
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3f885fe040a4e4a888c617dee6d18a
+      internalID: 1359197422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 750
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a56ab3ca982c94380aed45f8e5fe67
+      internalID: 36877179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 750
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8636509884318ed42b6e13279428eb85
+      internalID: 1659624259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 750
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4bcb8079c52354783b2677b53e584f
+      internalID: -580365665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 750
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae4526f908316a43a3bfc09a00fc745
+      internalID: 194243935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 750
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae876e83e4e2a94aa2db95a74e753e7
+      internalID: 598164778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 750
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597aa8bbd121497479b81db4088284f4
+      internalID: 1694494351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 750
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38efd5cee3a827249842f72d86b628c3
+      internalID: -1572738636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 750
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0aff08b9aaa8546beefd73edef7315
+      internalID: 1070117482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 750
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a670a8233af3b43989e265f84c1809
+      internalID: 699522648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 375
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c72ce81e59416439764ac91127628b
+      internalID: 1047134947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 375
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab133db0cd4ab04b8b244ff0a48b946
+      internalID: -1321196998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 375
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a84986b3d22cf498d7617810436157
+      internalID: 785473736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 375
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d0279ec8843464cba3a250ee74373f
+      internalID: -1119414825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 375
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e06ceafa298cd841acb3378fac488ca
+      internalID: -232910243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 375
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94853549559bb1e40a5013d39e6760e5
+      internalID: 1466001065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 375
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f96bf6b8702d4e4494fb185eec5c176
+      internalID: 1600358271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 375
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577676e9a01487a41a2fa633694c0327
+      internalID: 2108073744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 375
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892e52bc3fbba3d42be2799483e9d6e6
+      internalID: -1978822047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 375
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54155d3c93e32fa469e71e7d46ef332a
+      internalID: 2004034706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd68ddf3db8de04aa4433b7c74644c5
+      internalID: 42297333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fdbe63833ce5647b4ba3c3f479e147
+      internalID: 673487055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2370cbdb19fd7c043a2f8afa085acb29
+      internalID: -116233268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5dbc199b0b9f244cbcf8dcfc165efe4
+      internalID: -412563644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2dab2f78754884396e4d11c331e9d6
+      internalID: 1576412177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 0
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9249b670a4752941bada036cb59e2c9
+      internalID: -2009176395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2b6ae5560d2b949997cfd495aadb36
+      internalID: -668656999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 0
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de05c8c5099f7d4e841c26431e58799
+      internalID: 1304651904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nightmarchergroupwalk_spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff4e12c97ebc984bae3b353c4aac253
+      internalID: -1758260798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 77e3a7ba717c81e47bf8b670c64b1878
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Nightmarchergroupwalk_spritesheet_0: -1324628796
+      Nightmarchergroupwalk_spritesheet_1: -550310535
+      Nightmarchergroupwalk_spritesheet_10: 1418138382
+      Nightmarchergroupwalk_spritesheet_11: -513947443
+      Nightmarchergroupwalk_spritesheet_12: 1627575425
+      Nightmarchergroupwalk_spritesheet_13: 1950520166
+      Nightmarchergroupwalk_spritesheet_14: 1555844170
+      Nightmarchergroupwalk_spritesheet_15: -2097192367
+      Nightmarchergroupwalk_spritesheet_16: -2022054523
+      Nightmarchergroupwalk_spritesheet_17: 722157142
+      Nightmarchergroupwalk_spritesheet_18: -1150002393
+      Nightmarchergroupwalk_spritesheet_19: -2090718795
+      Nightmarchergroupwalk_spritesheet_2: 1479368732
+      Nightmarchergroupwalk_spritesheet_20: -801244132
+      Nightmarchergroupwalk_spritesheet_21: 1388076692
+      Nightmarchergroupwalk_spritesheet_22: -1686488053
+      Nightmarchergroupwalk_spritesheet_23: 1007570330
+      Nightmarchergroupwalk_spritesheet_24: 1801694112
+      Nightmarchergroupwalk_spritesheet_25: -2088884817
+      Nightmarchergroupwalk_spritesheet_26: -2134257993
+      Nightmarchergroupwalk_spritesheet_27: 1355666589
+      Nightmarchergroupwalk_spritesheet_28: 883749004
+      Nightmarchergroupwalk_spritesheet_29: 1406730281
+      Nightmarchergroupwalk_spritesheet_3: -311921037
+      Nightmarchergroupwalk_spritesheet_30: -1840277722
+      Nightmarchergroupwalk_spritesheet_31: -421981495
+      Nightmarchergroupwalk_spritesheet_32: 987880261
+      Nightmarchergroupwalk_spritesheet_33: -1843567373
+      Nightmarchergroupwalk_spritesheet_34: 983063376
+      Nightmarchergroupwalk_spritesheet_35: -1590992519
+      Nightmarchergroupwalk_spritesheet_36: -2075858137
+      Nightmarchergroupwalk_spritesheet_37: 201368865
+      Nightmarchergroupwalk_spritesheet_38: 1314703515
+      Nightmarchergroupwalk_spritesheet_39: 385676915
+      Nightmarchergroupwalk_spritesheet_4: 491790902
+      Nightmarchergroupwalk_spritesheet_40: -397238034
+      Nightmarchergroupwalk_spritesheet_41: -1819869150
+      Nightmarchergroupwalk_spritesheet_42: -157895770
+      Nightmarchergroupwalk_spritesheet_43: -1479293141
+      Nightmarchergroupwalk_spritesheet_44: 1946978820
+      Nightmarchergroupwalk_spritesheet_45: 780458088
+      Nightmarchergroupwalk_spritesheet_46: 2137486450
+      Nightmarchergroupwalk_spritesheet_47: -1286932105
+      Nightmarchergroupwalk_spritesheet_48: 1993158093
+      Nightmarchergroupwalk_spritesheet_49: -1189672130
+      Nightmarchergroupwalk_spritesheet_5: -1299672082
+      Nightmarchergroupwalk_spritesheet_50: 1359197422
+      Nightmarchergroupwalk_spritesheet_51: 36877179
+      Nightmarchergroupwalk_spritesheet_52: 1659624259
+      Nightmarchergroupwalk_spritesheet_53: -580365665
+      Nightmarchergroupwalk_spritesheet_54: 194243935
+      Nightmarchergroupwalk_spritesheet_55: 598164778
+      Nightmarchergroupwalk_spritesheet_56: 1694494351
+      Nightmarchergroupwalk_spritesheet_57: -1572738636
+      Nightmarchergroupwalk_spritesheet_58: 1070117482
+      Nightmarchergroupwalk_spritesheet_59: 699522648
+      Nightmarchergroupwalk_spritesheet_6: -228738723
+      Nightmarchergroupwalk_spritesheet_60: 1047134947
+      Nightmarchergroupwalk_spritesheet_61: -1321196998
+      Nightmarchergroupwalk_spritesheet_62: 785473736
+      Nightmarchergroupwalk_spritesheet_63: -1119414825
+      Nightmarchergroupwalk_spritesheet_64: -232910243
+      Nightmarchergroupwalk_spritesheet_65: 1466001065
+      Nightmarchergroupwalk_spritesheet_66: 1600358271
+      Nightmarchergroupwalk_spritesheet_67: 2108073744
+      Nightmarchergroupwalk_spritesheet_68: -1978822047
+      Nightmarchergroupwalk_spritesheet_69: 2004034706
+      Nightmarchergroupwalk_spritesheet_7: 553034917
+      Nightmarchergroupwalk_spritesheet_70: 42297333
+      Nightmarchergroupwalk_spritesheet_71: 673487055
+      Nightmarchergroupwalk_spritesheet_72: -116233268
+      Nightmarchergroupwalk_spritesheet_73: -412563644
+      Nightmarchergroupwalk_spritesheet_74: 1576412177
+      Nightmarchergroupwalk_spritesheet_75: -2009176395
+      Nightmarchergroupwalk_spritesheet_76: -668656999
+      Nightmarchergroupwalk_spritesheet_77: 1304651904
+      Nightmarchergroupwalk_spritesheet_78: -1758260798
+      Nightmarchergroupwalk_spritesheet_8: -170624658
+      Nightmarchergroupwalk_spritesheet_9: -690118240
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
