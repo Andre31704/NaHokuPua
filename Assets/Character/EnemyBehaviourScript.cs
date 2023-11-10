@@ -5,28 +5,36 @@ using UnityEngine.SceneManagement;
 
 public class EnemyBehavior : MonoBehaviour
 {
-    private bool isPlayerKneeling = false;
+    private bool isKneeling = false;
     private bool isGameOver = false;
     private float kneelDuration = 6f; // Time the player needs to kneel to avoid game over
     private float timeSinceKneeling = 0f;
     private float gameOverDuration = 5f; // Time until game over if player doesn't kneel
     private float timeSinceStart = 0f;
 
+    public GameObject Player;
+    public PlayerMovement script;
+
+    void Start()
+    {
+        
+    }
+
     private void Update()
     {
-        if (isPlayerKneeling && !isGameOver)
+        if (isKneeling && !isGameOver)
         {
             timeSinceKneeling += Time.deltaTime;
 
             // If player has kneeled for the required duration, allow them to continue
             if (timeSinceKneeling >= kneelDuration)
             {
-                isPlayerKneeling = false;
+                isKneeling = false;
                 timeSinceKneeling = 0f;
                 // Resume player's normal movement or animations
             }
         }
-        else if (!isPlayerKneeling && !isGameOver)
+        else if (!isKneeling && !isGameOver)
         {
             timeSinceStart += Time.deltaTime;
 
@@ -41,12 +49,12 @@ public class EnemyBehavior : MonoBehaviour
 
     public void PlayerKneeling()
     {
-        isPlayerKneeling = true;
+        isKneeling = true;
     }
 
     private void GameOver()
     {
         // Implement game over logic here
-        SceneManager.LoadScene("GameOverScene"); // Load game over scene or handle accordingly
+        SceneManager.LoadScene("Title Screen"); // Load game over scene or handle accordingly
     }
 }
