@@ -13,11 +13,15 @@ public class EnemyBehavior : MonoBehaviour
     private float timeSinceStart = 0f;
 
     public GameObject Player;
-    public PlayerMovement script;
 
     void Start()
     {
-        
+       PlayerMovement PmScript = GetComponent<PlayerMovement>();
+        PmScript.onBoolValueChanged.AddListener(OnBoolValueChanged);
+    }
+
+   void OnBoolValueChanged (bool newVal){
+        isKneeling = newVal;
     }
 
     private void Update()

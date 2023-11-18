@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -15,11 +16,13 @@ public class PlayerMovement : MonoBehaviour
     private bool isKneeling = false;
     private string currentAnimaton;
 
+    private bool allowInput = false;
 
-
+    public UnityEvent<bool> onBoolValueChanged;
     public LayerMask groundLayer;
-    public float SlowedMoveSpeed;
+    public float SlowedMoveSpeed = 4f;
     public float moveSpeed = 6f;
+    public EnemyBehavior script;
 
     // Start is called before the first frame update 
     void Start()
@@ -52,6 +55,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
         
+        if (allowInput){
         //checking for kneeling
         if ( !isKneeling && Input.GetKeyDown(KeyCode.K) && isGrounded) //kneel when 'K' is pressed
         {
@@ -64,8 +68,8 @@ public class PlayerMovement : MonoBehaviour
             {
                 StartCoroutine(EndKneelTransition());
             }
+        }   
         }
-
         if (!isGrounded)
         {
             m_Animator.SetFloat("Air", 1.0f);
@@ -182,6 +186,23 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
+    private void OnCollisionEnter2D(Collision2D collision){
+       if (collision.gameObject.tag == "Mud")
+       {
+        allowInput = false;
+        SlowPlayer();
+       }
+    }
+     private void OnCollisionExit2D(Collision2D collision){
+        if (collision.gameObject.tag != "Mud")
+       {
+        allowInput = true;
+       RestorePlayerSpeed();
+       }
+     }
+
+
+
     void Flip(int direction)
     {
         Vector3 newScale = transform.localScale;
@@ -190,12 +211,15 @@ public class PlayerMovement : MonoBehaviour
     }
 
     public void SlowPlayer()
-    {
-        moveSpeed = SlowedMoveSpeed;
+    { 
+        moveSpeed = 2f;
+        Debug.Log("Player is in Mud");
     }
 
     public void RestorePlayerSpeed()
     {// Restore player speed to normal
         moveSpeed = 6f; // Adjust this value according to your default speed
+       Debug.Log(moveSpeed);
+       
     } 
 }

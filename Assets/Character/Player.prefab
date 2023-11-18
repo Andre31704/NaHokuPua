@@ -173,11 +173,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9306214991cd2a84eb2e6cffd7e10b0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 10
-  groundCheck: {fileID: 7996641898556609691}
   groundLayer:
     serializedVersion: 2
     m_Bits: 0
+  SlowedMoveSpeed: 0
+  moveSpeed: 6
 --- !u!95 &1659677045648888536
 Animator:
   serializedVersion: 5

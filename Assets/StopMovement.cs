@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class StopMovement : MonoBehaviour
 {
-    private PlayerMovement pm;
+   /* private PlayerMovement pm;
 
 
     void OnTriggerEnter2D(Collider2D other)
@@ -34,5 +34,5 @@ public class StopMovement : MonoBehaviour
         }
 
     }
-  
+  */
 }

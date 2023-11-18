@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 4060153519699560701}
   m_Layer: 7
   m_Name: Mud Floor Incline (1)
-  m_TagString: Untagged
+  m_TagString: Mud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -215,7 +215,7 @@ GameObject:
   - component: {fileID: 7891311629076081095}
   m_Layer: 7
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: Mud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -292,7 +292,7 @@ GameObject:
   - component: {fileID: 3242862748888934347}
   m_Layer: 7
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: Mud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
