@@ -11,7 +11,7 @@ public class MainMenu : MonoBehaviour
 
     public void PlayGame ()
     {
-        SceneManager.LoadScene("NaPuaHoku");
+        SceneManager.LoadScene("Beginning Cutscene");
     }
 
     public void QuitGame () 
