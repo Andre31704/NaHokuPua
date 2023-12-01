@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NaPuaHoku.unity
     guid: b5c4aa7b188442747ab475a4365c00aa
+  - enabled: 1
+    path: Assets/Scenes/Beginning Cutscene.unity
+    guid: 015c16ada5cf4894286f8e0ec1f77abf
   m_configObjects: {}
