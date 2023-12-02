@@ -55,5 +55,9 @@ public class PauseMenu : MonoBehaviour
     public void RestartGame()
     {
         UnityEngine.Debug.Log("Restarting game..");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        UnityEngine.Debug.Log("Restarted");
+        Resume();
+
     }
 }
