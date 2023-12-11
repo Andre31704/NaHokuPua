@@ -11,7 +11,7 @@ public class EnemyBehavior : MonoBehaviour
     private bool isGameOver = false;
     private float kneelDuration = 7f; // Time the player needs to kneel to avoid game over
     private float timeSinceKneeling = 0f;
-    private float gameOverDuration = 10f; // Time until game over if player doesn't kneel
+    private float gameOverDuration = 30f; // Time until game over if player doesn't kneel
     private float timeSinceStart = 0f;
     private bool inTrigger = false;
 
@@ -57,7 +57,7 @@ public class EnemyBehavior : MonoBehaviour
         transform.Translate(Vector3.left * moveSpeed * Time.deltaTime);
 
         // Check if the object has moved far enough to the left (or reached a specific position)
-        if (transform.position.x <= -5f) 
+        if (transform.position.x <=  60f) 
         {
             Debug.Log("Disappear");
             moveSpeed = 0f;
@@ -69,7 +69,7 @@ public class EnemyBehavior : MonoBehaviour
                 isKneeling = true;
 
             }
-
+                       
         if (inTrigger == true) { 
         if (isKneeling == true && isGameOver == false)
         { 
@@ -78,8 +78,8 @@ public class EnemyBehavior : MonoBehaviour
             if (timeSinceKneeling >= kneelDuration)
             {
                 moveSpeed = 4f;
-                isKneeling = false;
                 timeSinceKneeling = 0f;
+                inTrigger = false;
                 // Resume player's normal movement or animations
             }
         }
@@ -115,7 +115,7 @@ private void OnCollisionEnter2D(Collision2D collision)
 
 private void OnCollisionExit2D(Collision2D collision)
 {
-     if(collision.gameObject.tag == "Player"){
+     if(collision.gameObject.tag != "Player"){
             inTrigger = false;
                         Debug.Log("timer is off");
                                     moveSpeed = 3;

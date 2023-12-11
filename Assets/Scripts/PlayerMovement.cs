@@ -224,11 +224,6 @@ public class PlayerMovement : MonoBehaviour
     }
     }
 
-        public void TestMethod()
-        {
-            Debug.Log("Applesauce");
-        }
-
      private void OnCollisionExit2D(Collision2D collision){
         if (collision.gameObject.tag != "Mud")
        {
