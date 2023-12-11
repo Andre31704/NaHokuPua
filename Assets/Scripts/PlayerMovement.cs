@@ -13,16 +13,21 @@ public class PlayerMovement : MonoBehaviour
     private float isinAir;
     private float xAxis;
     private float yAxis;
-    private bool isKneeling = false;
     private string currentAnimaton;
 
-    private bool allowInput = false;
+    private bool allowInput = true;
 
-    public UnityEvent<bool> onBoolValueChanged;
+    private float i;
+    public UnityEvent onBoolValueChanged;
+
+    public bool isKneeling = false;
+    public bool inTrigger = false;
     public LayerMask groundLayer;
     public float SlowedMoveSpeed = 4f;
     public float moveSpeed = 6f;
-    public EnemyBehavior script;
+    public EnemyBehavior Nscript;
+   // public BoolController BoolScript;
+
 
     // Start is called before the first frame update 
     void Start()
@@ -55,6 +60,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
         
+
         if (allowInput){
         //checking for kneeling
         if ( !isKneeling && Input.GetKeyDown(KeyCode.K) && isGrounded) //kneel when 'K' is pressed
@@ -67,6 +73,7 @@ public class PlayerMovement : MonoBehaviour
         {
             {
                 StartCoroutine(EndKneelTransition());
+
             }
         }   
         }
@@ -91,7 +98,24 @@ public class PlayerMovement : MonoBehaviour
         {
             m_Animator.SetFloat("Jump", 0.0f);
         }
+
+       // CheckBoolValue();
     }
+
+    /*private void CheckBoolValue()
+    {
+               if (inTrigger == true && isKneeling == true)
+        {
+            Nscript.RecieveBoolValue(isKneeling);
+           onBoolValueChanged.Invoke();
+
+        i = i+1;
+        if(i == 40){
+            Debug.Log(isKneeling);
+        Debug.Log("RAN CODE");
+        }
+        }
+    }*/
 
     IEnumerator StartKneelTransition()
     {
@@ -100,7 +124,6 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = Vector2.zero;
         
         yield return new WaitForSeconds(2f);
-
         Debug.Log("Player is kneeling");
     }
 
@@ -117,7 +140,6 @@ public class PlayerMovement : MonoBehaviour
 
         isKneeling = false;
     }
-
 
 
     // fixedupdate checks physics
@@ -192,13 +214,30 @@ public class PlayerMovement : MonoBehaviour
         allowInput = false;
         SlowPlayer();
        }
+         if(collision.gameObject.tag == "NightMarcher"){
+            inTrigger = true;
+         /*   EnemyBehavior NMscript = collision.gameObject.GetComponent<EnemyBehavior>();
+            if (NMscript != null)
+            {
+                NMscript.RecieveBoolValue(isKneeling);
+            }*/
     }
+    }
+
+        public void TestMethod()
+        {
+            Debug.Log("Applesauce");
+        }
+
      private void OnCollisionExit2D(Collision2D collision){
         if (collision.gameObject.tag != "Mud")
        {
         allowInput = true;
        RestorePlayerSpeed();
        }
+        if(collision.gameObject.tag == "NightMarcher"){
+            inTrigger = false;
+        }
      }
 
 
