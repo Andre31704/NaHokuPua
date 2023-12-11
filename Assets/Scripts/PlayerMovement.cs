@@ -34,6 +34,10 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         m_Animator = GetComponent<Animator>();
+        /* 
+        Player Origin/Start Pos
+        X: -91.87 Y: -155.19 Z: 9.92597
+        */
     }
 
     

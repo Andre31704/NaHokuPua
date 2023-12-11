@@ -11,7 +11,7 @@ public class EnemyBehavior : MonoBehaviour
     private bool isGameOver = false;
     private float kneelDuration = 7f; // Time the player needs to kneel to avoid game over
     private float timeSinceKneeling = 0f;
-    private float gameOverDuration = 30f; // Time until game over if player doesn't kneel
+    private float gameOverDuration = 10f; // Time until game over if player doesn't kneel
     private float timeSinceStart = 0f;
     private bool inTrigger = false;
 
