@@ -8,9 +8,8 @@ public class CreditsLoad : MonoBehaviour
 private void OnCollisionEnter2D(Collision2D collision)
 {
          if(collision.gameObject.tag == "Player"){
-SceneManager.LoadScene("Title Screen");         
+SceneManager.LoadScene("CreditScreen");         
 //SceneManager.LoadScene("CreditScreen");  
-
 }
 }
 }
