@@ -102,7 +102,7 @@ public class PlayerMovement : MonoBehaviour
         {
             m_Animator.SetFloat("Jump", 0.0f);
         }
-
+            
        // CheckBoolValue();
     }
 

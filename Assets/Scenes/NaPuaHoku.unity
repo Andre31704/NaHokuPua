@@ -16205,6 +16205,23 @@ Transform:
   m_Father: {fileID: 1403152562}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &483552017 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 319346368841515906, guid: fb791ccef16a20d4c874c01223ac4b53, type: 3}
+  m_PrefabInstance: {fileID: 788316854596442273}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &483552021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483552017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8430bd1297be647fb999fd4780e9b803, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &484837001
 GameObject:
   m_ObjectHideFlags: 0
@@ -72017,6 +72034,10 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -2.5587742
       objectReference: {fileID: 0}
+    - target: {fileID: 6997687443306679440, guid: fb791ccef16a20d4c874c01223ac4b53, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7332738151915799136, guid: fb791ccef16a20d4c874c01223ac4b53, type: 3}
       propertyPath: m_Name
       value: Mud Floor (2)
@@ -72050,6 +72071,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1939728956035795446, guid: fb791ccef16a20d4c874c01223ac4b53, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1509081774}
+    - targetCorrespondingSourceObject: {fileID: 319346368841515906, guid: fb791ccef16a20d4c874c01223ac4b53, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 483552021}
   m_SourcePrefab: {fileID: 100100000, guid: fb791ccef16a20d4c874c01223ac4b53, type: 3}
 --- !u!1001 &1122928412631945769
 PrefabInstance:
@@ -72556,11 +72580,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2472451896232566173, guid: 0088d43cf3d187f46a35e7864a91f0eb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 228.7
+      value: -91.87
       objectReference: {fileID: 0}
     - target: {fileID: 2472451896232566173, guid: 0088d43cf3d187f46a35e7864a91f0eb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -162.5
+      value: -155.19
       objectReference: {fileID: 0}
     - target: {fileID: 2472451896232566173, guid: 0088d43cf3d187f46a35e7864a91f0eb, type: 3}
       propertyPath: m_LocalPosition.z

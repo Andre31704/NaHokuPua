@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class loadmainmenu : MonoBehaviour
 {
-    public void Load()
+     void OnEnable()
     {
+        Debug.Log("Activating");
         SceneManager.LoadScene("Title Screen");
     }
 }

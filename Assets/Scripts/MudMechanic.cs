@@ -10,7 +10,7 @@ public class MudMechanic : MonoBehaviour
     // List to keep track of objects inside the collider
     private List<Collider> collidersInside = new List<Collider>();
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider other)
     {
         // Check if the entering object is the player
         if (other.CompareTag("Player"))
