@@ -15,12 +15,20 @@ public class EnemyBehavior : MonoBehaviour
     private float timeSinceStart = 0f;
     private bool inTrigger = false;
 
-      public float moveSpeed = 0f;
+    public AudioClip Death_Game_Sound;
+    public AudioClip warningSound;
+    private AudioSource audioSource;
+    private string sceneToStopSound = "Title Screen";
+
+    public float moveSpeed = 0f;
         private float i;
 
     public void RecieveBoolValue(bool isKneeling1)
         
-    {         Debug.Log("Banana " + isKneeling1);
+    {
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.clip = Death_Game_Sound;
+        Debug.Log("Banana " + isKneeling1);
         if(isKneeling1 == true){
             //iFunction(isKneeling1);
 
@@ -42,7 +50,10 @@ public class EnemyBehavior : MonoBehaviour
 
     private void Start()
     {
-     PlayerMovement PmScript = GetComponent<PlayerMovement>();
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.clip = warningSound;
+
+        PlayerMovement PmScript = GetComponent<PlayerMovement>();
      if (PmScript != null)
      {
         bool inTrigger = PmScript.inTrigger;
@@ -61,6 +72,7 @@ public class EnemyBehavior : MonoBehaviour
         {
             Debug.Log("Disappear");
             moveSpeed = 0f;
+            audioSource.Play(); //Play the Night Marchers sound
             // Destroy the game object
             Destroy(gameObject);
         }
@@ -90,9 +102,15 @@ public class EnemyBehavior : MonoBehaviour
             if (timeSinceStart >= gameOverDuration)
             {
                 isGameOver = true;
+                audioSource.Play();
                 GameOver();
             }
-        }
+
+                if (SceneManager.GetActiveScene().name == sceneToStopSound && audioSource.isPlaying)
+                {
+                    audioSource.Stop();
+                }
+            }
     }
 
     }

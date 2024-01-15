@@ -3,7 +3,13 @@ guid: 9306214991cd2a84eb2e6cffd7e10b0a
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - Nscript: {instanceID: 0}
+  - proximitySound: {fileID: 8300000, guid: 63f44b92bb7aa69428a6d4417fafcdf0, type: 3}
+  - proximityObject: {fileID: 8222833075042716062, guid: 76f59edb01a11a040aba4f6a975e78f9, type: 3}
+  - Jump: {fileID: 8300000, guid: ec00beb9d97c87343a26a79d6f6b5dba, type: 3}
+  - Kneeling_Indiator: {fileID: 8300000, guid: 63f44b92bb7aa69428a6d4417fafcdf0, type: 3}
+  - Players_Walking_Mud: {fileID: 8300000, guid: e5239f202c161c144bbddd3f740598df, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

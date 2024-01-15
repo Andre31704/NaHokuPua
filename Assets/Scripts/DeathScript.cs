@@ -8,32 +8,34 @@ public class DeathScript : MonoBehaviour
     public Transform SpawnPoint;
     public GameObject Prefab;
     private GameObject instantiatedObject;
+    public AudioClip Death_Game_Sound; 
 
-     void OnTriggerEnter2D()
-{
-         Debug.Log("TRIGGERED");
-           instantiatedObject = Instantiate(Prefab, SpawnPoint.position, SpawnPoint.rotation);
-    
-}
-private void OnTriggerExit2D()
-{
-                    Debug.Log("Delete");
-                    DeletePreFab();
-}
-
-void DeletePreFab()
-{
-    if(instantiatedObject != null)
+    void OnTriggerEnter2D()
     {
-        Destroy(instantiatedObject);
-        instantiatedObject = null;
-    }
-}
+        Debug.Log("TRIGGERED");
+        instantiatedObject = Instantiate(Prefab, SpawnPoint.position, SpawnPoint.rotation);
 
-void Update()
-{
-    if(Input.GetKeyDown(KeyCode.K) == true){
+    }
+    private void OnTriggerExit2D()
+    {
+        Debug.Log("Delete");
         DeletePreFab();
     }
-}
+
+    void DeletePreFab()
+    {
+        if (instantiatedObject != null)
+        {
+            Destroy(instantiatedObject);
+            instantiatedObject = null;
+        }
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.K) == true)
+        {
+            DeletePreFab();
+        }
+    }
 }

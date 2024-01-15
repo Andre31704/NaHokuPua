@@ -2,27 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class MudTriggerSound : MonoBehaviour
 {
-    public AudioSource Players_WalkingMud;
+        public AudioClip Players_Walking_Mud;
 
-    void start()
-    {
-        Players_WalkingMud = GetComponent<AudioSource>(); 
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        Debug.Log("Object Entered the trigger");
-    }
-
-    void OnTriggerStay (Collider Other)
-    {
-        Debug.Log("Object is within trigger");
-    }
-
-    void OnTriggerExit(Collider Other)
-    {
-        Debug.Log("Object Exited the trigger");
-    }
+        void OnTriggerEnter(Collider other)
+        {
+            if (other.gameObject.name == "Player")
+            {
+                AudioSource audioSource = GetComponent<AudioSource>();
+                audioSource.clip = Players_Walking_Mud;
+                audioSource.Play();
+            }
+        }
 }

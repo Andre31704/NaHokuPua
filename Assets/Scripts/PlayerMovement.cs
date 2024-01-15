@@ -26,8 +26,18 @@ public class PlayerMovement : MonoBehaviour
     public float SlowedMoveSpeed = 4f;
     public float moveSpeed = 6f;
     public EnemyBehavior Nscript;
-   // public BoolController BoolScript;
+    // public BoolController BoolScript;
 
+    //sound
+    public float interactionDistance = 1.0f;
+    public AudioClip proximitySound; // The sound to play when close to the object
+    public GameObject proximityObject; // The object to measure distance from
+    public float triggerDistance = 5.0f; // The distance at which the sound will play
+
+    public AudioClip Jump; 
+    public AudioClip Kneeling_Indiator;
+    private AudioSource audioSource;
+    public AudioClip Players_Walking_Mud;
 
     // Start is called before the first frame update 
     void Start()
@@ -38,9 +48,34 @@ public class PlayerMovement : MonoBehaviour
         Player Origin/Start Pos
         X: -91.87 Y: -155.19 Z: 9.92597
         */
+
+        //Sound
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
     }
 
-    
+
+    //Sound
+    void CheckForInteraction()
+    {
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+
+           // InteractableManager.Instance.InteractWithObjects(transform.position, interactionDistance);
+            
+            EventDispatcher.Raise<PlayerInteract>(
+                new PlayerInteract { interactionPosition = transform.position, interactionDistance = interactionDistance }
+                );
+
+            EventDispatcher.Raise<PlaySound>(
+                new PlaySound { index = 0 }
+                ); 
+        }
+    } 
+
     // Update is called once per frame, check for inputs
     void Update()
     {
@@ -61,6 +96,9 @@ public class PlayerMovement : MonoBehaviour
             {
                 rb.velocity = new Vector2(rb.velocity.x, 7f);
                 m_Animator.SetFloat("Jump", 1.0f);
+                audioSource.clip = Jump;
+                audioSource.Play();
+                audioSource.volume = 1.0f;
             }
         }
         
@@ -126,7 +164,9 @@ public class PlayerMovement : MonoBehaviour
         isKneeling = true;
         m_Animator.SetBool("Kneel", true);
         rb.velocity = Vector2.zero;
-        
+        audioSource.clip = Kneeling_Indiator;
+        audioSource.Play();
+
         yield return new WaitForSeconds(2f);
         Debug.Log("Player is kneeling");
     }
@@ -217,6 +257,8 @@ public class PlayerMovement : MonoBehaviour
        {
         allowInput = false;
         SlowPlayer();
+        audioSource.clip = Players_Walking_Mud;
+        audioSource.Play();
        }
          if(collision.gameObject.tag == "NightMarcher"){
             inTrigger = true;
